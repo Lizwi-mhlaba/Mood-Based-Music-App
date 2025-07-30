@@ -1,3 +1,7 @@
+//Author: Lizwi T Mhlaba
+//Project: Mood Based Music App
+//Date: 24 July 2025
+
 // Source code is decompiled from a .class file using FernFlower decompiler.
 package com.moodifyx;
 
