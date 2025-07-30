@@ -7,6 +7,7 @@ package com.moodifyx;
 import java.io.File;
 import javax.sound.sampled.*;
 
+                //Creating a SongPlayer class
 public class SongPlayer {
 
     private static Clip clip;
@@ -18,7 +19,7 @@ public class SongPlayer {
                 clip.stop();
                 clip.close();
             }
-
+                                    //AudioStream for a .wav extention
             AudioInputStream audioStream = AudioSystem.getAudioInputStream(new File(filePath));
             clip = AudioSystem.getClip();
             clip.open(audioStream);
